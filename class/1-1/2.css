@@ -1,0 +1,26 @@
+        /* 태그명을 바로 가리킬 때 */
+        * {
+            font-family: 'Sunflower', sans-serif;
+        }
+    	
+        body {
+            width: 300px;
+            margin: 50px auto 0 auto;
+        }
+
+        .mytitle {
+    	    	background-image: url('http://www.forest.go.kr/newkfsweb/cmm/fms/FileDown.do?atchFileId=FILE_000000010008639&fileSn=0');
+    	    	color: white;
+                width: 300px;
+                height: 200px;
+                border-radius:10px;
+                text-align: center;
+                background-size: cover;
+                background-position: center;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+    	}
+         
