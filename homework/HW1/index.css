@@ -1,3 +1,9 @@
+body{
+    background-color: bisque;
+    font-family: 'Stylish', sans-serif;
+    margin: 25px;
+}
+
 .coffee {
 
     display: flex;
@@ -5,12 +11,6 @@
     align-items: center;
     justify-content: center;
     
-}
-
-body{
-    background-color: bisque;
-    font-family: 'Stylish', sans-serif;
-    margin: 25px;
 }
 
 .product {
