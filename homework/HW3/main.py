@@ -17,7 +17,7 @@ for song in songs:
     # song 안에 a.title 있으면,
     a_tag = song.select_one('td.info > a.title')
     if a_tag is not None:
-        title = a_tag.text
+        title = a_tag.text.strip()
         artist = song.select_one('td.info > a.artist').text
-        print(rank,title[336:],"|",artist)
+        print(rank,title,"|",artist)
         rank += 1
