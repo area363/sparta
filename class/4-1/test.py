@@ -1,3 +1,1 @@
-a = 100
-
-print (a)
+import hello
